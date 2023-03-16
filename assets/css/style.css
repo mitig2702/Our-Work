@@ -1,0 +1,101 @@
+﻿/*=============================================================
+    Authour URL: www.designbootstrap.com
+    
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+/*==============================
+GENERAL STYLES
+==============================*/
+
+@import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 25px;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.btn-work{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+    margin-bottom: 15px;
+    width: 476px;
+    height: 66px;
+    background: #FFFFFF;
+    border: 1.6px solid #FE61A6;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn.btn-work:hover {
+    color: #FF2276;
+}
+
+.glyphicon{
+    position: absolute;
+    left: 16.67%;
+    right: 18.44%;
+    top: 26.77%;
+    bottom: 26.77%;
+    
+    }
+
+/* FONTS */
+.work-style{
+    width: 290px;
+    height: 85px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63.96px;
+    line-height: 85px;
+    color: #2C2C2C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.work-content-style{
+    width: 507px;
+    height: 216px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+    
+
+
+
+
